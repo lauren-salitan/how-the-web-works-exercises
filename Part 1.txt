@@ -1,0 +1,34 @@
+How Web Works Exercise
+
+Part One: Solidify Terminology
+In your own terms, define the following terms:
+* What is HTTP?
+    HTTP stands for HyperText Transfer Protocol and refers to how servers
+    and browsers communicate. The 'protocol' aspect explains to rules followed
+    for communication to take place.
+* What is a URL?
+    URL stands for Uniform Resource Locator. A URL is the plain-english address
+    to access a web resource (ie a website).
+* What is DNS?
+    DNS stands for Domain Name System. A DNS takes a name (like a URL) and 
+    converts it to an IP address so that when a user goes to a url, they are 
+    navigated to the website (the web resource behind the URL).
+* What is a query string?
+    A query string is the optional additions at the end of a URL that provides
+    additional parameters.
+* What are two HTTP verbs and how are they different?
+    POST creates something, GET retrieves something(s)
+* What is an HTTP request?
+    An HTTP request (including POST, GET, etc.) is when a user asks a server to
+    perform a task (one of the verbs).
+* What is an HTTP response?
+    An HTTP response is what the server delivers back to a user following a 
+    request.
+* What is an HTTP header? Give a couple examples of request and response headers
+you have seen.
+    An HTTP header is where the context for a request is.
+    Examples: accept-language, date
+* What are the processes that happen when you type 
+“http://somesite.com/some/page.html” into a browser?
+    Turns URL into IP address, browser makes requests, server responds to 
+    requests, server sends status, browser pulls necessary contents.
